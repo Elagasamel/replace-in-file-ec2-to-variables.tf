@@ -26,7 +26,6 @@ import Destroylambda from './pages/calcul/Destroylambda';
 import  GenerateEFS  from './pages/storage/GenerateEFS';
 import  EBS  from './pages/storage/EBS';
 import  EFS  from './pages/storage/EFS';
-import  UploadImageToS3WithReactS3  from './pages/storage/UploadImageToS3WithReactS3';
 import  S3  from './pages/storage/S3';
 import  VPC  from './pages/network/VPC';
 import  Route53  from './pages/network/Route53';
@@ -38,7 +37,6 @@ import  Destroyroute53  from './pages/network/Destroyroute53';
 import  Lambda  from './pages/calcul/Lambda';
 import  RDS  from './pages/dataBase/RDS';
 import  Services  from './pages/Services';
-import FileUpload from './components/Upload-file/FileUpload';
 import ec2reation from './pages/calcul/ec2reation';
 
 
@@ -84,8 +82,7 @@ function App() {
         <Route path='/connectToAws' component={ConnectToAws} />
         <Route path='/services'  exact component={Services} />
         <Route path='/contact-us'  exact component={Contact} />
-        <Route path='/UploadImageToS3WithReactS3' exact component={UploadImageToS3WithReactS3} />
-        <Route path='/FileUpload' exact component={FileUpload} />
+        <Route path='/ec2reation' exact component={ec2reation} />
         <Route path='/ec2reation' exact component={ec2reation} />
 
 
