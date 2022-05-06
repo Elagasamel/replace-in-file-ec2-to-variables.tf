@@ -1,0 +1,39 @@
+{
+  "service": [
+    {
+      "ami": "ee",
+      "instanceTagName": "ee",
+      "instance_type": "ee",
+      "Region": "us-east-2",
+      "Access Key ID": "sdvv",
+      "Secret Access Key": "ttttttt",
+      "id": 1
+    },
+    {
+      "ami": "ami-c998b6b2",
+      "instanceTagName": "ec2",
+      "instance_type": "t2.micro",
+      "Region": "us-east-2",
+      "Access Key ID": "k,olpjipîbnho",
+      "Secret Access Key": "^jnbloiji^)",
+      "id": 2
+    },
+    {
+      "ami": "ami-c998b6b2",
+      "instanceTagName": "ec2",
+      "instance_type": "t2.micro",
+      "Region": "us-east-2",
+      "Access Key ID": "qsdfghjklmlkjhgfdsqsdfghjkl",
+      "Secret Access Key": "bruno123;,nbgfdsqsertyuiopoiuytrezqsdfghjkl;,nbvcx",
+      "id": 3
+    }
+  ],
+  "connection": [
+    {
+      "Access Key ID": "sdvv",
+      "Secret Access Key": "sdv",
+      "AWS Region": "us-east-2",
+      "id": 1
+    }
+  ]
+}
